@@ -1,6 +1,7 @@
 {
   "name": "vidbg",
   "version": "0.1.0",
+  "main": "vidbg.js",
   "ignore": [
     ".editorconfig",
     ".gitattributes",
