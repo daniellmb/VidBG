@@ -20,7 +20,7 @@ function vidbg(element, sources, overlay) {
   sources.reverse();
 
   // build video tag source(s) html
-  while(index--) {
+  while (index--) {
     item = sources[index];
     html.push('<source src="', item.src, '" type="video/', item.type, '" />');
   }
