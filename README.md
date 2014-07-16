@@ -95,13 +95,13 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 [build-url]: https://travis-ci.org/daniellmb/VidBG
-[build-image]: http://img.shields.io/travis/daniellmb/vidbg.png
+[build-image]: http://img.shields.io/travis/daniellmb/VidBG.png
 
 [gpa-url]: https://codeclimate.com/github/daniellmb/VidBG
-[gpa-image]: https://codeclimate.com/github/daniellmb/vidbg.png
+[gpa-image]: https://codeclimate.com/github/daniellmb/VidBG.png
 
 [coverage-url]: https://codeclimate.com/github/daniellmb/VidBG/code?sort=covered_percent&sort_direction=desc
-[coverage-image]: https://codeclimate.com/github/daniellmb/vidbg/coverage.png
+[coverage-image]: https://codeclimate.com/github/daniellmb/VidBG/coverage.png
 
 [depstat-url]: https://david-dm.org/daniellmb/vidbg
 [depstat-image]: https://david-dm.org/daniellmb/vidbg.png?theme=shields.io
