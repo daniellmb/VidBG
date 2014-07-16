@@ -94,13 +94,13 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-[build-url]: https://travis-ci.org/daniellmb/vidbg
+[build-url]: https://travis-ci.org/daniellmb/VidBG
 [build-image]: http://img.shields.io/travis/daniellmb/vidbg.png
 
-[gpa-url]: https://codeclimate.com/github/daniellmb/vidbg
+[gpa-url]: https://codeclimate.com/github/daniellmb/VidBG
 [gpa-image]: https://codeclimate.com/github/daniellmb/vidbg.png
 
-[coverage-url]: https://codeclimate.com/github/daniellmb/vidbg/code?sort=covered_percent&sort_direction=desc
+[coverage-url]: https://codeclimate.com/github/daniellmb/VidBG/code?sort=covered_percent&sort_direction=desc
 [coverage-image]: https://codeclimate.com/github/daniellmb/vidbg/coverage.png
 
 [depstat-url]: https://david-dm.org/daniellmb/vidbg
@@ -121,7 +121,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [irc-url]: http://webchat.freenode.net/?channels=vidbg
 [irc-image]: http://img.shields.io/badge/irc-%23vidbg-brightgreen.png
 
-[gitter-url]: https://gitter.im/daniellmb/vidbg
+[gitter-url]: https://gitter.im/daniellmb/VidBG
 [gitter-image]: http://img.shields.io/badge/gitter-daniellmb/vidbg-brightgreen.png
 
 [tip-url]: https://www.gittip.com/daniellmb
