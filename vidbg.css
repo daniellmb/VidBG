@@ -1,0 +1,41 @@
+.vidbg {
+  display: block;
+  position: fixed;
+  overflow: hidden;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -101;
+  background: url(demo/img/poster.jpg) no-repeat;
+  background-size: cover;
+}
+
+.vidbg video {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+/* optional overlay on top of the video */
+.vidbg .vidbg-overlay {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -99;
+  opacity: 0.6;
+  background: url(demo/img/screen.png);
+}

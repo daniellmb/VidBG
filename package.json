@@ -1,0 +1,70 @@
+{
+  "name": "vidbg",
+  "version": "0.1.0",
+  "description": "vidbg is a 0.3kb micro-library for embedding video backgrounds into web pages.",
+  "author": {
+    "name": "Daniel Lamb",
+    "email": "dlamb.open.source@gmail.com",
+    "url": "https://github.com/daniellmb"
+  },
+  "homepage": "https://github.com/daniellmb/vidbg",
+  "bugs": {
+    "url": "https://github.com/daniellmb/vidbg/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://daniellmb.mit-license.org"
+    }
+  ],
+  "maintainers": [],
+  "contributors": [{
+    "name": "Daniel Lamb",
+    "email": "dlamb.open.source@gmail.com",
+    "url": "https://github.com/daniellmb"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daniellmb/vidbg.git"
+  },
+  "main": "vidbg.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "HTML5",
+    "video",
+    "movie",
+    "vimeo",
+    "youtube",
+    "background",
+    "embed",
+    "micro",
+    "script",
+    "library"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-complexity": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-uglify": "*",
+    "gulp-coffee": "*",
+    "gulp-karma": "*",
+    "mocha": "*",
+    "karma-mocha": "*",
+    "karma-chai": "*",
+    "karma-sinon": "*",
+    "sinon-chai": "*",
+    "coffee-script": "*",
+    "karma-coffee-preprocessor": "*",
+    "karma-coverage": "*",
+    "karma-phantomjs-launcher": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

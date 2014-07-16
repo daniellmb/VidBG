@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VidBG Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/demo.css" rel="stylesheet" type="text/css">
+  <link href="../vidbg.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+</head>
+<body>
+
+<!-- demo content -->
+<article class="content" itemprop="mainContentOfPage"><h1>
+<a name="user-content-aqua-automated-quality-analysis" class="anchor" href="#aqua-automated-quality-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>AQUA: Automated QUality Analysis</h1>
+<p><a href="https://travis-ci.org/daniellmb/AQUA"><img src="http://img.shields.io/travis/daniellmb/AQUA.svg?style=flat" alt="Build Status" style="max-width:100%;"></a> <a href="https://codeclimate.com/github/daniellmb/AQUA/code?sort=covered_percent&amp;sort_direction=desc"><img src="http://img.shields.io/codeclimate/coverage/github/daniellmb/AQUA.svg?style=flat" alt="Test Coverage" data-canonical-src="" style="max-width:100%;"></a> <a href="https://codeclimate.com/github/daniellmb/AQUA"><img src="http://img.shields.io/codeclimate/github/daniellmb/AQUA.svg?style=flat" alt="Code GPA" data-canonical-src="" style="max-width:100%;"></a> <a href="https://www.npmjs.org/package/aqua"><img src="http://img.shields.io/badge/npm-v0.0.3-brightgreen.svg?style=flat" alt="NPM Version" data-canonical-src="" style="max-width:100%;"></a> <a href="http://webchat.freenode.net/?channels=aqua"><img src="http://img.shields.io/badge/irc-%23aqua-brightgreen.svg?style=flat" alt="IRC Channel" data-canonical-src="" style="max-width:100%;"></a> <a href="https://gitter.im/daniellmb/AQUA"><img src="http://img.shields.io/badge/gitter-daniellmb/aqua-brightgreen.svg?style=flat" alt="Gitter" data-canonical-src="" style="max-width:100%;"></a></p>
+<h2>
+  <a name="user-content-about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
+<p><a href="https://www.npmjs.org/package/aqua">AQUA</a> improves code quality by surfacing actionable metrics about JavaScript, CSS and C#.</p>
+<blockquote>
+  <p>AQUA raises the visibility of code quality and increases awareness within teams by giving immediate feedback about code smells before they become technical debt.</p>
+</blockquote>
+<p>You are free to structure your projects anyway you like, and still take full advantage of AQUA. Simply create an <code>aqua.project.json</code> file that documents where things are.</p>
+<h2>
+  <a name="user-content-philosophy" class="anchor" href="#philosophy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Philosophy</h2>
+<p>The goal of AQUA is to improve code quality, without dictating a strict project structure. <strong>Ramp-up gradually</strong> by only configuring the the parts of AQUA you want to use. Not ready for end-to-end tests yet? Simply don't configure them. Don't want to type check your JavaScript code? Just leave out the "types" section. Even if you just start by linting your code, that will be a great step in the right direction!</p>
+<p>While nothing is stopping you from simply editing a JavaScript file and committing it to source control; doing so will cause you to miss out on: linting, cyclomatic complexity analysis, type checking, running both unit and end-to-end tests, as well as documentation generation, and code coverage reports.</p>
+<h2>
+  <a name="user-content-features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+<h3>
+  <a name="user-content-javascript" class="anchor" href="#javascript" aria-hidden="true"><span class="octicon octicon-link"></span></a>JavaScript</h3>
+<ul class="task-list">
+  <li>Lint Source Code for Syntax Errors and Anti-Patterns</li>
+  <li>Automatically fix lint errors non-destructively</li>
+  <li>Analyze Code Against Complexity Thresholds</li>
+  <li>Type Checking Source Code</li>
+  <li>Advanced Minification</li>
+  <li>Unit Test Runnner</li>
+  <li>Code Coverage Reports</li>
+  <li>End-to-end Test Runner</li>
+  <li>Documentation Generation</li>
+</ul><h3>
+  <a name="user-content-environments" class="anchor" href="#environments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Environments</h3>
+<p>AQUA is designed to play well with the following types of projects.</p>
+<ul class="task-list">
+  <li>Web Projects</li>
+  <li>Node.js Projects</li>
+</ul>
+</article>
+
+<!-- vidbg demo -->
+<script src="../vidbg.min.js"></script>
+<script>
+  vidbg(document.body, [
+    {src: 'http://cf.cdn.vid.ly/3l6g3m/webm.webm', type: 'webm'},
+    {src: 'http://cf.cdn.vid.ly/3l6g3m/mp4.mp4', type: 'mp4'},
+    {src: 'http://cf.cdn.vid.ly/3l6g3m/ogv.ogv', type: 'ogg'}
+  ], true);
+</script>
+
+</body>
+</html>
