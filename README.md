@@ -17,6 +17,8 @@ This repository was scaffolded with [generator-microjs](https://github.com/danie
 
 ## Examples
 
+### [Live Demo](http://daniellmb.github.io/AQUA/)
+
 ### JavaScript
 
 ```JavaScript
@@ -104,7 +106,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [coverage-image]: https://codeclimate.com/github/daniellmb/VidBG/coverage.png
 
 [depstat-url]: https://david-dm.org/daniellmb/vidbg
-[depstat-image]: https://david-dm.org/daniellmb/vidbg.png?theme=shields.io
+[depstat-image]: https://david-dm.org/daniellmb/vidbg/dev-status.png?theme=shields.io
 
 [issues-url]: https://github.com/daniellmb/vidbg/issues
 [issues-image]: http://img.shields.io/github/issues/daniellmb/vidbg.png
